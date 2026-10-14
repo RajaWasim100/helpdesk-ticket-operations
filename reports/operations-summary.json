@@ -1,0 +1,1642 @@
+{
+  "title": "Help Desk Ticket Operations Analysis",
+  "label": "REAL PUBLISHED MASKED OPERATIONAL DATA — NOT THE PORTFOLIO OWNER'S WORK HISTORY",
+  "provenance": {
+    "dataset": "Help Desk Tickets, version 3",
+    "creator": "Mohammad Abdellatif",
+    "doi": "10.17632/btm76zndnt.3",
+    "url": "https://doi.org/10.17632/btm76zndnt.3",
+    "license": "CC BY 4.0 (attribution required)",
+    "source_sha256": "eab3b8857bc19bd917e0767fb9c30b7714d5468b25c5a1c1cd71a760e9602f02",
+    "source_size_bytes": 20586538,
+    "privacy_note": "The publisher says certain fields are masked, not that all data is anonymous. Only aggregate outputs are generated; identifiers, project codes, and utterance text are never exported."
+  },
+  "scope": {
+    "ticket_records": 66691,
+    "created_coverage": {
+      "first": "2007-04-15T08:12:11+00:00",
+      "last": "2023-03-14T14:00:32+00:00"
+    },
+    "resolved_coverage": {
+      "first": "2013-01-07T09:45:42+00:00",
+      "last": "2023-03-14T14:19:28+00:00"
+    },
+    "unresolved_or_missing_resolution_timestamp": 853
+  },
+  "triage_profile": {
+    "issue_type": [
+      {
+        "label": "Ticket",
+        "count": 45275,
+        "share_pct": 67.89
+      },
+      {
+        "label": "Service",
+        "count": 5300,
+        "share_pct": 7.95
+      },
+      {
+        "label": "Subtask",
+        "count": 4746,
+        "share_pct": 7.12
+      },
+      {
+        "label": "Story",
+        "count": 4538,
+        "share_pct": 6.8
+      },
+      {
+        "label": "HD Service",
+        "count": 1686,
+        "share_pct": 2.53
+      },
+      {
+        "label": "Task",
+        "count": 1540,
+        "share_pct": 2.31
+      },
+      {
+        "label": "Vacation",
+        "count": 856,
+        "share_pct": 1.28
+      },
+      {
+        "label": "Project",
+        "count": 842,
+        "share_pct": 1.26
+      },
+      {
+        "label": "Sub-task",
+        "count": 544,
+        "share_pct": 0.82
+      },
+      {
+        "label": "Epic",
+        "count": 403,
+        "share_pct": 0.6
+      },
+      {
+        "label": "Deployment",
+        "count": 350,
+        "share_pct": 0.52
+      },
+      {
+        "label": "Retrospective",
+        "count": 241,
+        "share_pct": 0.36
+      },
+      {
+        "label": "Sprint Summary",
+        "count": 208,
+        "share_pct": 0.31
+      },
+      {
+        "label": "Assistance",
+        "count": 109,
+        "share_pct": 0.16
+      },
+      {
+        "label": "Bug",
+        "count": 53,
+        "share_pct": 0.08
+      }
+    ],
+    "priority": [
+      {
+        "label": "unknown",
+        "count": 33965,
+        "share_pct": 50.93
+      },
+      {
+        "label": "Medium",
+        "count": 24788,
+        "share_pct": 37.17
+      },
+      {
+        "label": "High",
+        "count": 4554,
+        "share_pct": 6.83
+      },
+      {
+        "label": "Highest",
+        "count": 2084,
+        "share_pct": 3.12
+      },
+      {
+        "label": "Blocker",
+        "count": 656,
+        "share_pct": 0.98
+      },
+      {
+        "label": "Low",
+        "count": 560,
+        "share_pct": 0.84
+      },
+      {
+        "label": "Lowest",
+        "count": 84,
+        "share_pct": 0.13
+      }
+    ],
+    "current_status": [
+      {
+        "label": "closed",
+        "count": 56344,
+        "share_pct": 84.49
+      },
+      {
+        "label": "done",
+        "count": 9714,
+        "share_pct": 14.57
+      },
+      {
+        "label": "waiting",
+        "count": 218,
+        "share_pct": 0.33
+      },
+      {
+        "label": "open",
+        "count": 97,
+        "share_pct": 0.15
+      },
+      {
+        "label": "in_progress",
+        "count": 94,
+        "share_pct": 0.14
+      },
+      {
+        "label": "validation",
+        "count": 86,
+        "share_pct": 0.13
+      },
+      {
+        "label": "resolved",
+        "count": 59,
+        "share_pct": 0.09
+      },
+      {
+        "label": "pending_deployment",
+        "count": 47,
+        "share_pct": 0.07
+      },
+      {
+        "label": "resolved_under_monitoring",
+        "count": 18,
+        "share_pct": 0.03
+      },
+      {
+        "label": "Suppressed (labels with fewer than 5 records)",
+        "count": 9,
+        "share_pct": 0.01
+      },
+      {
+        "label": "under_review",
+        "count": 5,
+        "share_pct": 0.01
+      }
+    ],
+    "resolution_outcome": [
+      {
+        "label": "Done",
+        "count": 62034,
+        "share_pct": 93.02
+      },
+      {
+        "label": "Won't Do",
+        "count": 2991,
+        "share_pct": 4.48
+      },
+      {
+        "label": "(not recorded)",
+        "count": 853,
+        "share_pct": 1.28
+      },
+      {
+        "label": "Duplicate",
+        "count": 661,
+        "share_pct": 0.99
+      },
+      {
+        "label": "Cannot Reproduce",
+        "count": 152,
+        "share_pct": 0.23
+      }
+    ],
+    "monthly_created_tickets": [
+      {
+        "label": "2016-10",
+        "count": 992,
+        "share_pct": 1.49
+      },
+      {
+        "label": "2016-01",
+        "count": 866,
+        "share_pct": 1.3
+      },
+      {
+        "label": "2016-03",
+        "count": 813,
+        "share_pct": 1.22
+      },
+      {
+        "label": "2015-11",
+        "count": 775,
+        "share_pct": 1.16
+      },
+      {
+        "label": "2015-08",
+        "count": 770,
+        "share_pct": 1.15
+      },
+      {
+        "label": "2023-01",
+        "count": 749,
+        "share_pct": 1.12
+      },
+      {
+        "label": "2015-12",
+        "count": 740,
+        "share_pct": 1.11
+      },
+      {
+        "label": "2016-02",
+        "count": 723,
+        "share_pct": 1.08
+      },
+      {
+        "label": "2015-10",
+        "count": 686,
+        "share_pct": 1.03
+      },
+      {
+        "label": "2015-09",
+        "count": 664,
+        "share_pct": 1.0
+      },
+      {
+        "label": "2023-02",
+        "count": 663,
+        "share_pct": 0.99
+      },
+      {
+        "label": "2022-11",
+        "count": 633,
+        "share_pct": 0.95
+      },
+      {
+        "label": "2021-12",
+        "count": 629,
+        "share_pct": 0.94
+      },
+      {
+        "label": "2022-12",
+        "count": 629,
+        "share_pct": 0.94
+      },
+      {
+        "label": "2022-10",
+        "count": 612,
+        "share_pct": 0.92
+      },
+      {
+        "label": "2020-09",
+        "count": 586,
+        "share_pct": 0.88
+      },
+      {
+        "label": "2019-01",
+        "count": 584,
+        "share_pct": 0.88
+      },
+      {
+        "label": "2021-02",
+        "count": 583,
+        "share_pct": 0.87
+      },
+      {
+        "label": "2022-08",
+        "count": 579,
+        "share_pct": 0.87
+      },
+      {
+        "label": "2022-09",
+        "count": 573,
+        "share_pct": 0.86
+      },
+      {
+        "label": "2016-04",
+        "count": 571,
+        "share_pct": 0.86
+      },
+      {
+        "label": "2021-01",
+        "count": 561,
+        "share_pct": 0.84
+      },
+      {
+        "label": "2018-01",
+        "count": 560,
+        "share_pct": 0.84
+      },
+      {
+        "label": "2018-03",
+        "count": 559,
+        "share_pct": 0.84
+      },
+      {
+        "label": "2022-06",
+        "count": 556,
+        "share_pct": 0.83
+      },
+      {
+        "label": "2020-12",
+        "count": 554,
+        "share_pct": 0.83
+      },
+      {
+        "label": "2017-11",
+        "count": 550,
+        "share_pct": 0.82
+      },
+      {
+        "label": "2016-11",
+        "count": 547,
+        "share_pct": 0.82
+      },
+      {
+        "label": "2020-10",
+        "count": 545,
+        "share_pct": 0.82
+      },
+      {
+        "label": "2022-01",
+        "count": 545,
+        "share_pct": 0.82
+      },
+      {
+        "label": "2022-02",
+        "count": 540,
+        "share_pct": 0.81
+      },
+      {
+        "label": "2018-11",
+        "count": 537,
+        "share_pct": 0.81
+      },
+      {
+        "label": "2017-01",
+        "count": 527,
+        "share_pct": 0.79
+      },
+      {
+        "label": "2016-12",
+        "count": 526,
+        "share_pct": 0.79
+      },
+      {
+        "label": "2021-09",
+        "count": 524,
+        "share_pct": 0.79
+      },
+      {
+        "label": "2020-11",
+        "count": 522,
+        "share_pct": 0.78
+      },
+      {
+        "label": "2017-03",
+        "count": 519,
+        "share_pct": 0.78
+      },
+      {
+        "label": "2017-12",
+        "count": 516,
+        "share_pct": 0.77
+      },
+      {
+        "label": "2018-07",
+        "count": 512,
+        "share_pct": 0.77
+      },
+      {
+        "label": "2016-05",
+        "count": 510,
+        "share_pct": 0.76
+      },
+      {
+        "label": "2018-10",
+        "count": 510,
+        "share_pct": 0.76
+      },
+      {
+        "label": "2022-03",
+        "count": 510,
+        "share_pct": 0.76
+      },
+      {
+        "label": "2017-04",
+        "count": 509,
+        "share_pct": 0.76
+      },
+      {
+        "label": "2019-02",
+        "count": 507,
+        "share_pct": 0.76
+      },
+      {
+        "label": "2017-05",
+        "count": 506,
+        "share_pct": 0.76
+      },
+      {
+        "label": "2021-03",
+        "count": 506,
+        "share_pct": 0.76
+      },
+      {
+        "label": "2018-02",
+        "count": 502,
+        "share_pct": 0.75
+      },
+      {
+        "label": "2018-04",
+        "count": 500,
+        "share_pct": 0.75
+      },
+      {
+        "label": "2020-07",
+        "count": 500,
+        "share_pct": 0.75
+      },
+      {
+        "label": "2021-06",
+        "count": 499,
+        "share_pct": 0.75
+      },
+      {
+        "label": "2019-03",
+        "count": 497,
+        "share_pct": 0.75
+      },
+      {
+        "label": "2021-08",
+        "count": 483,
+        "share_pct": 0.72
+      },
+      {
+        "label": "2018-12",
+        "count": 482,
+        "share_pct": 0.72
+      },
+      {
+        "label": "2020-06",
+        "count": 471,
+        "share_pct": 0.71
+      },
+      {
+        "label": "2022-04",
+        "count": 470,
+        "share_pct": 0.7
+      },
+      {
+        "label": "2017-02",
+        "count": 468,
+        "share_pct": 0.7
+      },
+      {
+        "label": "2019-07",
+        "count": 468,
+        "share_pct": 0.7
+      },
+      {
+        "label": "2017-10",
+        "count": 467,
+        "share_pct": 0.7
+      },
+      {
+        "label": "2021-11",
+        "count": 464,
+        "share_pct": 0.7
+      },
+      {
+        "label": "2022-07",
+        "count": 461,
+        "share_pct": 0.69
+      },
+      {
+        "label": "2020-03",
+        "count": 457,
+        "share_pct": 0.69
+      },
+      {
+        "label": "2019-09",
+        "count": 455,
+        "share_pct": 0.68
+      },
+      {
+        "label": "2017-07",
+        "count": 445,
+        "share_pct": 0.67
+      },
+      {
+        "label": "2022-05",
+        "count": 434,
+        "share_pct": 0.65
+      },
+      {
+        "label": "2018-05",
+        "count": 433,
+        "share_pct": 0.65
+      },
+      {
+        "label": "2020-08",
+        "count": 432,
+        "share_pct": 0.65
+      },
+      {
+        "label": "2011-04",
+        "count": 423,
+        "share_pct": 0.63
+      },
+      {
+        "label": "2021-05",
+        "count": 419,
+        "share_pct": 0.63
+      },
+      {
+        "label": "2019-04",
+        "count": 417,
+        "share_pct": 0.63
+      },
+      {
+        "label": "2021-10",
+        "count": 411,
+        "share_pct": 0.62
+      },
+      {
+        "label": "2016-06",
+        "count": 407,
+        "share_pct": 0.61
+      },
+      {
+        "label": "2019-10",
+        "count": 405,
+        "share_pct": 0.61
+      },
+      {
+        "label": "2020-04",
+        "count": 403,
+        "share_pct": 0.6
+      },
+      {
+        "label": "2019-11",
+        "count": 391,
+        "share_pct": 0.59
+      },
+      {
+        "label": "2016-08",
+        "count": 389,
+        "share_pct": 0.58
+      },
+      {
+        "label": "2021-04",
+        "count": 385,
+        "share_pct": 0.58
+      },
+      {
+        "label": "2017-08",
+        "count": 384,
+        "share_pct": 0.58
+      },
+      {
+        "label": "2018-09",
+        "count": 377,
+        "share_pct": 0.57
+      },
+      {
+        "label": "2018-08",
+        "count": 374,
+        "share_pct": 0.56
+      },
+      {
+        "label": "2010-10",
+        "count": 372,
+        "share_pct": 0.56
+      },
+      {
+        "label": "2021-07",
+        "count": 370,
+        "share_pct": 0.55
+      },
+      {
+        "label": "2015-07",
+        "count": 367,
+        "share_pct": 0.55
+      },
+      {
+        "label": "2018-06",
+        "count": 366,
+        "share_pct": 0.55
+      },
+      {
+        "label": "2020-01",
+        "count": 360,
+        "share_pct": 0.54
+      },
+      {
+        "label": "2015-06",
+        "count": 358,
+        "share_pct": 0.54
+      },
+      {
+        "label": "2016-09",
+        "count": 358,
+        "share_pct": 0.54
+      },
+      {
+        "label": "2019-05",
+        "count": 358,
+        "share_pct": 0.54
+      },
+      {
+        "label": "2011-05",
+        "count": 353,
+        "share_pct": 0.53
+      },
+      {
+        "label": "2019-12",
+        "count": 353,
+        "share_pct": 0.53
+      },
+      {
+        "label": "2016-07",
+        "count": 351,
+        "share_pct": 0.53
+      },
+      {
+        "label": "2012-05",
+        "count": 348,
+        "share_pct": 0.52
+      },
+      {
+        "label": "2023-03",
+        "count": 343,
+        "share_pct": 0.51
+      },
+      {
+        "label": "2019-06",
+        "count": 340,
+        "share_pct": 0.51
+      },
+      {
+        "label": "2017-06",
+        "count": 324,
+        "share_pct": 0.49
+      },
+      {
+        "label": "2020-05",
+        "count": 322,
+        "share_pct": 0.48
+      },
+      {
+        "label": "2020-02",
+        "count": 318,
+        "share_pct": 0.48
+      },
+      {
+        "label": "2009-12",
+        "count": 315,
+        "share_pct": 0.47
+      },
+      {
+        "label": "2012-03",
+        "count": 312,
+        "share_pct": 0.47
+      },
+      {
+        "label": "2017-09",
+        "count": 309,
+        "share_pct": 0.46
+      },
+      {
+        "label": "2019-08",
+        "count": 309,
+        "share_pct": 0.46
+      },
+      {
+        "label": "2011-01",
+        "count": 308,
+        "share_pct": 0.46
+      },
+      {
+        "label": "2012-07",
+        "count": 308,
+        "share_pct": 0.46
+      },
+      {
+        "label": "2014-03",
+        "count": 296,
+        "share_pct": 0.44
+      },
+      {
+        "label": "2010-06",
+        "count": 291,
+        "share_pct": 0.44
+      },
+      {
+        "label": "2012-04",
+        "count": 290,
+        "share_pct": 0.43
+      },
+      {
+        "label": "2010-03",
+        "count": 289,
+        "share_pct": 0.43
+      },
+      {
+        "label": "2015-05",
+        "count": 282,
+        "share_pct": 0.42
+      },
+      {
+        "label": "2013-12",
+        "count": 280,
+        "share_pct": 0.42
+      },
+      {
+        "label": "2010-05",
+        "count": 276,
+        "share_pct": 0.41
+      },
+      {
+        "label": "2013-09",
+        "count": 269,
+        "share_pct": 0.4
+      },
+      {
+        "label": "2012-02",
+        "count": 265,
+        "share_pct": 0.4
+      },
+      {
+        "label": "2012-09",
+        "count": 260,
+        "share_pct": 0.39
+      },
+      {
+        "label": "2014-04",
+        "count": 258,
+        "share_pct": 0.39
+      },
+      {
+        "label": "2009-06",
+        "count": 254,
+        "share_pct": 0.38
+      },
+      {
+        "label": "2010-01",
+        "count": 253,
+        "share_pct": 0.38
+      },
+      {
+        "label": "2014-09",
+        "count": 253,
+        "share_pct": 0.38
+      },
+      {
+        "label": "2010-07",
+        "count": 252,
+        "share_pct": 0.38
+      },
+      {
+        "label": "2010-02",
+        "count": 251,
+        "share_pct": 0.38
+      },
+      {
+        "label": "2014-08",
+        "count": 250,
+        "share_pct": 0.37
+      },
+      {
+        "label": "2014-11",
+        "count": 246,
+        "share_pct": 0.37
+      },
+      {
+        "label": "2015-04",
+        "count": 245,
+        "share_pct": 0.37
+      },
+      {
+        "label": "2009-08",
+        "count": 243,
+        "share_pct": 0.36
+      },
+      {
+        "label": "2014-05",
+        "count": 243,
+        "share_pct": 0.36
+      },
+      {
+        "label": "2012-10",
+        "count": 239,
+        "share_pct": 0.36
+      },
+      {
+        "label": "2010-11",
+        "count": 238,
+        "share_pct": 0.36
+      },
+      {
+        "label": "2010-12",
+        "count": 238,
+        "share_pct": 0.36
+      },
+      {
+        "label": "2010-08",
+        "count": 237,
+        "share_pct": 0.36
+      },
+      {
+        "label": "2014-06",
+        "count": 235,
+        "share_pct": 0.35
+      },
+      {
+        "label": "2015-02",
+        "count": 235,
+        "share_pct": 0.35
+      },
+      {
+        "label": "2015-03",
+        "count": 234,
+        "share_pct": 0.35
+      },
+      {
+        "label": "2011-07",
+        "count": 233,
+        "share_pct": 0.35
+      },
+      {
+        "label": "2011-06",
+        "count": 232,
+        "share_pct": 0.35
+      },
+      {
+        "label": "2011-10",
+        "count": 231,
+        "share_pct": 0.35
+      },
+      {
+        "label": "2011-03",
+        "count": 229,
+        "share_pct": 0.34
+      },
+      {
+        "label": "2014-12",
+        "count": 229,
+        "share_pct": 0.34
+      },
+      {
+        "label": "2014-02",
+        "count": 228,
+        "share_pct": 0.34
+      },
+      {
+        "label": "2011-12",
+        "count": 227,
+        "share_pct": 0.34
+      },
+      {
+        "label": "2012-06",
+        "count": 226,
+        "share_pct": 0.34
+      },
+      {
+        "label": "2010-04",
+        "count": 225,
+        "share_pct": 0.34
+      },
+      {
+        "label": "2013-04",
+        "count": 225,
+        "share_pct": 0.34
+      },
+      {
+        "label": "2012-11",
+        "count": 219,
+        "share_pct": 0.33
+      },
+      {
+        "label": "2014-01",
+        "count": 219,
+        "share_pct": 0.33
+      },
+      {
+        "label": "2014-10",
+        "count": 218,
+        "share_pct": 0.33
+      },
+      {
+        "label": "2012-01",
+        "count": 217,
+        "share_pct": 0.33
+      },
+      {
+        "label": "2009-11",
+        "count": 213,
+        "share_pct": 0.32
+      },
+      {
+        "label": "2010-09",
+        "count": 211,
+        "share_pct": 0.32
+      },
+      {
+        "label": "2011-09",
+        "count": 208,
+        "share_pct": 0.31
+      },
+      {
+        "label": "2013-02",
+        "count": 207,
+        "share_pct": 0.31
+      },
+      {
+        "label": "2012-12",
+        "count": 205,
+        "share_pct": 0.31
+      },
+      {
+        "label": "2013-05",
+        "count": 200,
+        "share_pct": 0.3
+      },
+      {
+        "label": "2011-11",
+        "count": 199,
+        "share_pct": 0.3
+      },
+      {
+        "label": "2013-03",
+        "count": 196,
+        "share_pct": 0.29
+      },
+      {
+        "label": "2013-06",
+        "count": 194,
+        "share_pct": 0.29
+      },
+      {
+        "label": "2009-09",
+        "count": 192,
+        "share_pct": 0.29
+      },
+      {
+        "label": "2013-11",
+        "count": 188,
+        "share_pct": 0.28
+      },
+      {
+        "label": "2015-01",
+        "count": 187,
+        "share_pct": 0.28
+      },
+      {
+        "label": "2012-08",
+        "count": 182,
+        "share_pct": 0.27
+      },
+      {
+        "label": "2013-10",
+        "count": 179,
+        "share_pct": 0.27
+      },
+      {
+        "label": "2013-07",
+        "count": 175,
+        "share_pct": 0.26
+      },
+      {
+        "label": "2009-07",
+        "count": 174,
+        "share_pct": 0.26
+      },
+      {
+        "label": "2009-10",
+        "count": 174,
+        "share_pct": 0.26
+      },
+      {
+        "label": "2013-01",
+        "count": 174,
+        "share_pct": 0.26
+      },
+      {
+        "label": "2014-07",
+        "count": 170,
+        "share_pct": 0.25
+      },
+      {
+        "label": "2011-08",
+        "count": 164,
+        "share_pct": 0.25
+      },
+      {
+        "label": "2011-02",
+        "count": 159,
+        "share_pct": 0.24
+      },
+      {
+        "label": "2013-08",
+        "count": 155,
+        "share_pct": 0.23
+      },
+      {
+        "label": "2009-05",
+        "count": 141,
+        "share_pct": 0.21
+      },
+      {
+        "label": "2008-04",
+        "count": 140,
+        "share_pct": 0.21
+      },
+      {
+        "label": "2009-03",
+        "count": 132,
+        "share_pct": 0.2
+      },
+      {
+        "label": "2008-03",
+        "count": 129,
+        "share_pct": 0.19
+      },
+      {
+        "label": "2008-07",
+        "count": 126,
+        "share_pct": 0.19
+      },
+      {
+        "label": "2009-04",
+        "count": 112,
+        "share_pct": 0.17
+      },
+      {
+        "label": "2009-02",
+        "count": 108,
+        "share_pct": 0.16
+      },
+      {
+        "label": "2008-06",
+        "count": 103,
+        "share_pct": 0.15
+      },
+      {
+        "label": "2009-01",
+        "count": 99,
+        "share_pct": 0.15
+      },
+      {
+        "label": "2008-11",
+        "count": 98,
+        "share_pct": 0.15
+      },
+      {
+        "label": "2008-10",
+        "count": 97,
+        "share_pct": 0.15
+      },
+      {
+        "label": "2008-08",
+        "count": 86,
+        "share_pct": 0.13
+      },
+      {
+        "label": "2008-05",
+        "count": 77,
+        "share_pct": 0.12
+      },
+      {
+        "label": "2007-07",
+        "count": 70,
+        "share_pct": 0.1
+      },
+      {
+        "label": "2008-12",
+        "count": 69,
+        "share_pct": 0.1
+      },
+      {
+        "label": "2008-09",
+        "count": 68,
+        "share_pct": 0.1
+      },
+      {
+        "label": "2007-11",
+        "count": 61,
+        "share_pct": 0.09
+      },
+      {
+        "label": "2007-12",
+        "count": 58,
+        "share_pct": 0.09
+      },
+      {
+        "label": "2008-02",
+        "count": 58,
+        "share_pct": 0.09
+      },
+      {
+        "label": "2007-08",
+        "count": 55,
+        "share_pct": 0.08
+      },
+      {
+        "label": "2007-05",
+        "count": 54,
+        "share_pct": 0.08
+      },
+      {
+        "label": "2008-01",
+        "count": 52,
+        "share_pct": 0.08
+      },
+      {
+        "label": "2007-10",
+        "count": 45,
+        "share_pct": 0.07
+      },
+      {
+        "label": "2007-09",
+        "count": 42,
+        "share_pct": 0.06
+      },
+      {
+        "label": "2007-04",
+        "count": 39,
+        "share_pct": 0.06
+      },
+      {
+        "label": "2007-06",
+        "count": 33,
+        "share_pct": 0.05
+      }
+    ]
+  },
+  "workflow_metrics": {
+    "created_to_resolution_elapsed_hours": {
+      "median": 837.81,
+      "p90": 67593.72
+    },
+    "published_workflow_total_seconds": {
+      "median": 2961971.0,
+      "p90": 242470344.41
+    },
+    "processing_steps": {
+      "median": 3.0,
+      "p90": 6.0
+    },
+    "contributing_users_per_ticket": {
+      "median": 1.0,
+      "p90": 2.0
+    },
+    "tickets_with_multiple_contributors": 11647,
+    "tickets_with_multiple_contributors_pct": 17.46,
+    "mean_comments_per_ticket": 8.64,
+    "created_vs_workflow_total_large_difference_count": 260,
+    "workflow_state_median_hours": [
+      {
+        "workflow_state": "pending deployment",
+        "median_hours": 287.94,
+        "tickets_with_time": 1413
+      },
+      {
+        "workflow_state": "validation",
+        "median_hours": 244.31,
+        "tickets_with_time": 2961
+      },
+      {
+        "workflow_state": "waiting",
+        "median_hours": 165.66,
+        "tickets_with_time": 19704
+      },
+      {
+        "workflow_state": "testing monitoring",
+        "median_hours": 143.74,
+        "tickets_with_time": 290
+      },
+      {
+        "workflow_state": "resolved under monitoring",
+        "median_hours": 104.09,
+        "tickets_with_time": 1931
+      },
+      {
+        "workflow_state": "to do",
+        "median_hours": 91.29,
+        "tickets_with_time": 780
+      },
+      {
+        "workflow_state": "monitoring",
+        "median_hours": 69.74,
+        "tickets_with_time": 518
+      },
+      {
+        "workflow_state": "in review",
+        "median_hours": 69.15,
+        "tickets_with_time": 77
+      },
+      {
+        "workflow_state": "pending customer approval",
+        "median_hours": 47.6,
+        "tickets_with_time": 254
+      },
+      {
+        "workflow_state": "deployment",
+        "median_hours": 26.49,
+        "tickets_with_time": 135
+      },
+      {
+        "workflow_state": "open",
+        "median_hours": 24.67,
+        "tickets_with_time": 66613
+      },
+      {
+        "workflow_state": "done",
+        "median_hours": 21.03,
+        "tickets_with_time": 813
+      },
+      {
+        "workflow_state": "in progress",
+        "median_hours": 4.31,
+        "tickets_with_time": 36745
+      },
+      {
+        "workflow_state": "closed",
+        "median_hours": 3.67,
+        "tickets_with_time": 1595
+      },
+      {
+        "workflow_state": "reopened",
+        "median_hours": 0.02,
+        "tickets_with_time": 2123
+      },
+      {
+        "workflow_state": "resolved",
+        "median_hours": 0.01,
+        "tickets_with_time": 28145
+      },
+      {
+        "workflow_state": "approved",
+        "median_hours": 0.0,
+        "tickets_with_time": 1630
+      },
+      {
+        "workflow_state": "cancelled",
+        "median_hours": 0.0,
+        "tickets_with_time": 160
+      },
+      {
+        "workflow_state": "rejected",
+        "median_hours": 0.0,
+        "tickets_with_time": 112
+      },
+      {
+        "workflow_state": "under review",
+        "median_hours": 0.0,
+        "tickets_with_time": 1820
+      }
+    ],
+    "elapsed_hours_by_priority": [
+      {
+        "label": "unknown",
+        "resolved_ticket_count": 33965,
+        "median": 34149.4,
+        "p90": 76323.74
+      },
+      {
+        "label": "Medium",
+        "resolved_ticket_count": 24249,
+        "median": 238.5,
+        "p90": 3096.31
+      },
+      {
+        "label": "High",
+        "resolved_ticket_count": 4381,
+        "median": 120.47,
+        "p90": 1461.66
+      },
+      {
+        "label": "Highest",
+        "resolved_ticket_count": 2018,
+        "median": 91.91,
+        "p90": 1057.71
+      },
+      {
+        "label": "Blocker",
+        "resolved_ticket_count": 641,
+        "median": 90.56,
+        "p90": 1452.68
+      },
+      {
+        "label": "Low",
+        "resolved_ticket_count": 501,
+        "median": 216.56,
+        "p90": 2949.04
+      },
+      {
+        "label": "Lowest",
+        "resolved_ticket_count": 83,
+        "median": 230.03,
+        "p90": 2057.99
+      }
+    ],
+    "elapsed_hours_by_issue_type": [
+      {
+        "label": "Ticket",
+        "resolved_ticket_count": 44693,
+        "median": 1001.42,
+        "p90": 70395.17
+      },
+      {
+        "label": "Service",
+        "resolved_ticket_count": 5177,
+        "median": 326.75,
+        "p90": 2693.88
+      },
+      {
+        "label": "Subtask",
+        "resolved_ticket_count": 4746,
+        "median": 57605.71,
+        "p90": 75961.74
+      },
+      {
+        "label": "Story",
+        "resolved_ticket_count": 4538,
+        "median": 281.12,
+        "p90": 8013.74
+      },
+      {
+        "label": "HD Service",
+        "resolved_ticket_count": 1673,
+        "median": 285.49,
+        "p90": 1754.23
+      },
+      {
+        "label": "Task",
+        "resolved_ticket_count": 1538,
+        "median": 334.65,
+        "p90": 4201.67
+      },
+      {
+        "label": "Vacation",
+        "resolved_ticket_count": 856,
+        "median": 100.78,
+        "p90": 983.7
+      },
+      {
+        "label": "Project",
+        "resolved_ticket_count": 741,
+        "median": 1144.73,
+        "p90": 9775.37
+      },
+      {
+        "label": "Sub-task",
+        "resolved_ticket_count": 544,
+        "median": 277.43,
+        "p90": 43851.67
+      },
+      {
+        "label": "Epic",
+        "resolved_ticket_count": 403,
+        "median": 14524.43,
+        "p90": 21456.5
+      },
+      {
+        "label": "Deployment",
+        "resolved_ticket_count": 318,
+        "median": 189.9,
+        "p90": 5567.01
+      },
+      {
+        "label": "Retrospective",
+        "resolved_ticket_count": 241,
+        "median": 340.18,
+        "p90": 9766.76
+      },
+      {
+        "label": "Sprint Summary",
+        "resolved_ticket_count": 208,
+        "median": 395.12,
+        "p90": 17682.35
+      },
+      {
+        "label": "Assistance",
+        "resolved_ticket_count": 109,
+        "median": 170.65,
+        "p90": 734.66
+      },
+      {
+        "label": "Bug",
+        "resolved_ticket_count": 53,
+        "median": 289.24,
+        "p90": 3488.86
+      }
+    ],
+    "reopened_tickets_by_priority": [
+      {
+        "label": "unknown",
+        "count": 1284,
+        "share_pct": 1.93
+      },
+      {
+        "label": "Medium",
+        "count": 542,
+        "share_pct": 0.81
+      },
+      {
+        "label": "High",
+        "count": 166,
+        "share_pct": 0.25
+      },
+      {
+        "label": "Highest",
+        "count": 85,
+        "share_pct": 0.13
+      },
+      {
+        "label": "Low",
+        "count": 27,
+        "share_pct": 0.04
+      },
+      {
+        "label": "Blocker",
+        "count": 15,
+        "share_pct": 0.02
+      },
+      {
+        "label": "Suppressed (labels with fewer than 5 records)",
+        "count": 4,
+        "share_pct": 0.01
+      }
+    ]
+  },
+  "metric_definitions": {
+    "elapsed_time": "issue_resolution_date minus issue_created; calendar elapsed time, not staffed hours, first response, or SLA attainment.",
+    "workflow_total": "Dataset-provided wf_total_time in seconds; separately reported and not assumed equivalent to elapsed time.",
+    "multiple_contributors": "issue_contr_count > 1. This indicates multiple contributors, not a direct count of assignment changes or avoidable handoffs.",
+    "assignment_handoffs": "Distinct adjacent assignee values in timestamp-sorted assignment history are counted; initial assignment is not counted as a handoff. This is not a team escalation count.",
+    "priority": "Source priority labels are reported as-is; no local P1/P2 mapping or SLA target is inferred.",
+    "small_cells": "Labels with fewer than 5 records are combined to reduce disclosure risk; this is not a missing-data category.",
+    "monthly_created_tickets": "Ticket record counts by issue_created calendar month; no user/project identifiers are included."
+  },
+  "change_history": {
+    "history_rows": 257508,
+    "history_rows_matching_current_ticket_export": 257508,
+    "history_issue_ids_not_in_current_ticket_export": 0,
+    "ticket_records_with_history_pct": 99.94,
+    "ticket_records_without_history": 41,
+    "history_events_per_ticket_with_history": {
+      "median": 3.0,
+      "p90": 7.0
+    },
+    "history_event_fields": [
+      {
+        "label": "status",
+        "count": 194802,
+        "share_pct": 75.65
+      },
+      {
+        "label": "assignee",
+        "count": 62706,
+        "share_pct": 24.35
+      }
+    ],
+    "status_change_count": 194802,
+    "status_values_in_history": [
+      {
+        "label": "closed",
+        "count": 58165,
+        "share_pct": 29.86
+      },
+      {
+        "label": "in_progress",
+        "count": 51247,
+        "share_pct": 26.31
+      },
+      {
+        "label": "resolved",
+        "count": 31866,
+        "share_pct": 16.36
+      },
+      {
+        "label": "waiting",
+        "count": 25440,
+        "share_pct": 13.06
+      },
+      {
+        "label": "done",
+        "count": 11342,
+        "share_pct": 5.82
+      },
+      {
+        "label": "validation",
+        "count": 3948,
+        "share_pct": 2.03
+      },
+      {
+        "label": "reopened",
+        "count": 2325,
+        "share_pct": 1.19
+      },
+      {
+        "label": "resolved_under_monitoring",
+        "count": 2151,
+        "share_pct": 1.1
+      },
+      {
+        "label": "under_review",
+        "count": 1842,
+        "share_pct": 0.95
+      },
+      {
+        "label": "approved",
+        "count": 1800,
+        "share_pct": 0.92
+      },
+      {
+        "label": "pending_deployment",
+        "count": 1713,
+        "share_pct": 0.88
+      },
+      {
+        "label": "to_do",
+        "count": 988,
+        "share_pct": 0.51
+      },
+      {
+        "label": "monitoring",
+        "count": 570,
+        "share_pct": 0.29
+      },
+      {
+        "label": "testing_monitoring",
+        "count": 339,
+        "share_pct": 0.17
+      },
+      {
+        "label": "pending_customer_approval",
+        "count": 301,
+        "share_pct": 0.15
+      },
+      {
+        "label": "open",
+        "count": 237,
+        "share_pct": 0.12
+      },
+      {
+        "label": "cancelled",
+        "count": 172,
+        "share_pct": 0.09
+      },
+      {
+        "label": "deployment",
+        "count": 157,
+        "share_pct": 0.08
+      },
+      {
+        "label": "rejected",
+        "count": 115,
+        "share_pct": 0.06
+      },
+      {
+        "label": "in_review",
+        "count": 84,
+        "share_pct": 0.04
+      }
+    ],
+    "assignment_history": {
+      "tickets_with_assignment_events": 35665,
+      "assignee_change_events_per_ticket": {
+        "median": 0.0,
+        "p90": 2.0
+      },
+      "distinct_assignees_per_ticket": {
+        "median": 1.0,
+        "p90": 3.0
+      },
+      "note": "Adjacent changed-to assignee values are counted as handoffs; first assignment is not a handoff. A change in assignee is not necessarily a team escalation."
+    },
+    "history_timestamp_coverage": {
+      "first": "2015-08-12T11:14:28+00:00",
+      "last": "2023-03-14T14:19:32+00:00"
+    }
+  },
+  "quality_checks": {
+    "duplicate_issue_ids": 0,
+    "negative_created_to_resolution_intervals": 0,
+    "tickets_with_elapsed_vs_workflow_difference_over_5m_or_10pct": 260,
+    "note": "The elapsed-time comparison is a data-quality diagnostic; divergent values may reflect different workflow semantics, not necessarily bad records."
+  }
+}

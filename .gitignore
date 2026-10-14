@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.server.log
+.server.pid
+# Published ticket source exports can contain masked, still-sensitive operational attributes.
+data/raw/
+*.csv
+*.xlsx
